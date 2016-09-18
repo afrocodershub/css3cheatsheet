@@ -42,14 +42,14 @@ a:visited {
 
 
 hr {
-	width: 90%;
+	width: 95%;
 	clear: both;
 }
 
 
 
 
-
+/*font-family*/
 p.arial {
 	font-family: Arial;
 }
@@ -65,6 +65,8 @@ p.georgia {
 p.constantia {
 	font-family: Constantia, Sans-serif;
 }
+
+/*font-size*/
 
 p.em1 {
 	font-size: 1em;
@@ -99,6 +101,8 @@ p.x-large {
 p.xx-large {
 	font-size:xx-large;
 }
+
+/*font-weight*/
 p.normal {
 	font-weight:normal;
 }
@@ -116,4 +120,31 @@ p.hund {
 }
 p.ninehund {
 	font-weight:900;
+}
+
+/*font-style*/
+p.fs-normal {
+	font-style:normal;
+}
+p.fs-italic {
+	font-style:italic;
+}
+p.fs-oblique {
+font-style:oblique;
+}
+
+/*font-variant*/
+p.fv-normal {
+	font-variant: normal;
+}
+p.fv-smc {
+	font-variant: small-caps;
+}
+
+/*letter-spacing*/
+p.ls-normal {
+	letter-spacing:normal;
+}
+p.ls-em-2 {
+	letter-spacing:.2em;
 }
