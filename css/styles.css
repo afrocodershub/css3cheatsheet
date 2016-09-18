@@ -220,3 +220,28 @@ p.ti-0 {
 p.ti-20 {
 	text-indent: 20px;
 }
+
+/*white-space*/
+p.ws-normal {
+	white-space: normal;
+}
+p.ws-pre {
+	white-space: pre;
+}
+p.ws-nowrap {
+	white-space: nowrap;
+}
+
+/*text-decoration*/
+p.td-none {
+	text-decoration: none;
+}
+p.td-ul {
+	text-decoration: underline;
+}
+p.td-ol {
+	text-decoration: overline;
+}
+p.td-lt {
+	text-decoration: line-through;
+}
