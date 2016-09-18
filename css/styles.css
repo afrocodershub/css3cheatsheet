@@ -1,0 +1,119 @@
+body {
+	
+	margin: 50px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.formatList {
+	list-style-type: none;
+}
+
+hgroup>ol>ul {
+	font-size: 0.8em;
+}
+hgroup>ol {
+	font-size: 1em;
+	margin-bottom: 2px;
+}
+article h3 {
+	
+	font-size: 1.2em;
+
+}
+article p {
+	text-indent: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: darkgreen;
+}
+a:hover {
+	text-decoration: underline;
+	color: blue;
+}
+a:visited {
+	color: purple;
+}
+
+
+hr {
+	width: 90%;
+	clear: both;
+}
+
+
+
+
+
+p.arial {
+	font-family: Arial;
+}
+
+p.times {
+	font-family: Times;
+}
+
+p.georgia {
+	font-family: Georgia;
+}
+
+p.constantia {
+	font-family: Constantia, Sans-serif;
+}
+
+p.em1 {
+	font-size: 1em;
+}
+p.em1-3 {
+	font-size: 1.3em;
+}
+p.percent {
+	font-size: 110%;
+}
+p.pixel {
+	font-size: 14px;
+}
+p.smaller {
+	font-size: smaller;
+}
+p.small {
+	font-size:small;
+}
+p.medium {
+	font-size:medium;
+}
+p.large {
+	font-size:large;
+}
+p.larger {
+	font-size:larger;
+}
+p.x-large {
+	font-size:x-large;
+}
+p.xx-large {
+	font-size:xx-large;
+}
+p.normal {
+	font-weight:normal;
+}
+p.lighter {
+font-weight:lighter;
+}
+p.bold {
+	font-weight:bold;
+}
+p.bolder {
+	font-weight:bolder;
+}
+p.hund {
+	font-weight:100;
+}
+p.ninehund {
+	font-weight:900;
+}
