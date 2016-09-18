@@ -10,15 +10,15 @@ body {
 }
 
 hgroup>ol>ul {
-	font-size: 0.8em;
+	font-size: 0.9em;
 }
 hgroup>ol {
-	font-size: 1em;
+	font-size: 1.1em;
 	margin-bottom: 2px;
 }
 article h3 {
 	
-	font-size: 1.2em;
+	font-size: 1.4em;
 
 }
 article p {
@@ -143,8 +143,35 @@ p.fv-smc {
 
 /*letter-spacing*/
 p.ls-normal {
-	letter-spacing:normal;
+	letter-spacing: normal;
 }
 p.ls-em-2 {
-	letter-spacing:.2em;
+	letter-spacing: .2em;
+}
+
+/*word-spacing*/
+p.ws-normal {
+	word-spacing: normal;
+}
+span.ws-em-5 {
+	word-spacing: .5em;
+}
+
+/*line-height*/
+p.lh-normal {
+	line-height: normal;
+}
+p.lh-em2 {
+	line-height: 2em;
+}
+
+/*text-transform*/
+p.tt-cptlz {
+	text-transform: capitalize;
+}
+p.tt-upcs {
+	text-transform: uppercase;
+}
+p.tt-lwcs {
+	text-transform: lowercase;
 }
