@@ -5,20 +5,37 @@ body {
 	margin-top: 0px;
 }
 
-.formatList {
+.uList {
 	list-style-type: none;
 }
 
 hgroup>ol>ul {
 	font-size: 0.9em;
+	line-height: 1.5em;
 }
 hgroup>ol {
-	font-size: 1.1em;
-	margin-bottom: 2px;
+	font-size: 1.3em;
+	line-height: 1.5em;
+}
+ol.nHeads>li>a:link {
+	color: darkred;
+}
+h1 {
+	font-size: 2em;
+}
+section {
+	margin-top: 50px;
+	margin-left: 20px;
+}
+section h1 {
+	text-decoration: underline;
+}
+article {
+	margin-left: 20px;
 }
 article h3 {
-	
-	font-size: 1.4em;
+	margin-top: 25px;
+	font-size: 1.5em;
 
 }
 article p {
@@ -245,3 +262,100 @@ p.td-ol {
 p.td-lt {
 	text-decoration: line-through;
 }
+
+
+/*
+Defining Colors and Backgrounds
+===============================
+*/
+
+/*defining-colors*/
+p.dc-word {
+	color: blue;
+}
+p.dc-hex {
+	color: #0000FF;
+}
+p.dc-rgb {
+	color: rgb(0, 0, 255);
+}
+
+/*background-color*/
+p.bgc-hex {
+	width: 200px;
+	height: 50px;
+	margin-bottom:10px;
+	background-color:#999999;
+}
+p.bgi-none {
+	background-image:none;
+	width:200px;
+	height:200px;
+	margin-bottom:10px;
+	border:1px solid black;
+}
+
+/*background-image*/
+p.bgi-urlbasic {
+	color: white;
+	background-image:url(http://placekitten.com/50/50);
+	width:200px;
+	height:200px;
+	margin-bottom:10px;
+	border:1px solid black;
+}
+
+/*background-repeat*/
+p.bgr-repeat {
+	color: black;
+	background-image:url(http://placekitten.com/50/50);
+	width:200px;
+	height:200px;
+	margin-bottom:10px;
+	border:1px solid black;
+	background-repeat: repeat;
+}
+p.bgr-repeat-x {
+	color: black;
+	background-image:url(http://placekitten.com/50/50);
+	width:200px;
+	height:200px;
+	margin-bottom:10px;
+	border:1px solid black;
+	background-repeat: repeat-x;
+}
+p.bgr-repeat-y {
+	color: black;
+	background-image:url(http://placekitten.com/50/50);
+	width:200px;
+	height:200px;
+	margin-bottom:10px;
+	border:1px solid black;
+	background-repeat: repeat-y;
+}
+p.bgr-no-repeat {
+	color: black;
+	background-image:url(http://placekitten.com/50/50);
+	width:200px;
+	height:200px;
+	margin-bottom:10px;
+	border:1px solid black;
+	background-repeat: no-repeat;
+}
+
+
+p.bgp-rtop {
+	background-image:url(http://placekitten.com/50/50);
+	background-repeat:no-repeat;
+	background-position:right top;
+	width:200px;
+	height:200px;
+	margin-bottom:10px;
+	border:1px solid black;
+}
+
+
+
+
+
+
