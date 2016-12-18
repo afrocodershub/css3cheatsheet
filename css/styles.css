@@ -298,7 +298,7 @@ p.bgi-none {
 /*background-image*/
 p.bgi-urlbasic {
 	color: white;
-	background-image:url(http://placekitten.com/50/50);
+	background-image:url(http://placekitten.com/g/50/50);
 	width:200px;
 	height:200px;
 	margin-bottom:10px;
@@ -308,7 +308,7 @@ p.bgi-urlbasic {
 /*background-repeat*/
 p.bgr-repeat {
 	color: black;
-	background-image:url(http://placekitten.com/50/50);
+	background-image:url(http://placekitten.com/g/50/50);
 	width:200px;
 	height:200px;
 	margin-bottom:10px;
@@ -317,7 +317,7 @@ p.bgr-repeat {
 }
 p.bgr-repeat-x {
 	color: black;
-	background-image:url(http://placekitten.com/50/50);
+	background-image:url(http://placekitten.com/g/50/50);
 	width:200px;
 	height:200px;
 	margin-bottom:10px;
@@ -326,7 +326,7 @@ p.bgr-repeat-x {
 }
 p.bgr-repeat-y {
 	color: black;
-	background-image:url(http://placekitten.com/50/50);
+	background-image:url(http://placekitten.com/g/50/50);
 	width:200px;
 	height:200px;
 	margin-bottom:10px;
@@ -335,7 +335,7 @@ p.bgr-repeat-y {
 }
 p.bgr-no-repeat {
 	color: black;
-	background-image:url(http://placekitten.com/50/50);
+	background-image:url(http://placekitten.com/g/50/50);
 	width:200px;
 	height:200px;
 	margin-bottom:10px;
@@ -345,7 +345,7 @@ p.bgr-no-repeat {
 
 
 p.bgp-rtop {
-	background-image:url(http://placekitten.com/50/50);
+	background-image:url(http://placekitten.com/g/50/50);
 	background-repeat:no-repeat;
 	background-position:right top;
 	width:200px;
